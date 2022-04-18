@@ -8,7 +8,7 @@ body {
     padding: 70px 80px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -31,8 +31,23 @@ a:hover {
 }
 
 .logo {
+    background: url(assets/logo.svg);
     height: 36px;
     width: 198px;
+}
+
+.galtiks {
+    /* border: red solid; */
+    margin-top: 120px;
+    /* height: 519px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text1 {
+    /* border: green solid; */
+    width: 620px;
 }
 
 h4 {
@@ -40,16 +55,69 @@ h4 {
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 0;
 }
 
-#graphic img {
+h1 {
+    color: #111;
+    font-size: 96px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #111;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 41px;
+}
+
+.sign-up {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    /* border: 3px linear-gradient(#ff3998, #ff8139) 30; */
+    border: 3px #ff8139 solid;
+    border-radius: 30px;
+    padding: 15px 35px;
+    margin: 25px 0;
+    /* display: inline-block;
+    text-decoration: none; */
+}
+
+#graphic {
+    /* border: blue solid; */
+    background: url(assets/graphic.svg);
+    background-size: 600px 600px;
     height: 519px;
+    width: 40%;
+    /* justify-content: flex-end;
+    justify-items: center; */
 }
 
 #upsell {
+    margin-top: 180px;
     background-image: url(assets/background.svg);
+    background-repeat: no-repeat;
+    /* background-size: 1000px 320px; */
     height: 320px;
-    padding: 115px 80px 0 80px;
+    width: stretch;
+    /* padding: 115px 80px 0 80px; */
+}
+
+.text {
+    padding: 104px 0 0 64px;
+}
+
+h3 {
+    color: #111;
+    font-size: 40px;
+    font-weight: 500;
+    /* padding-top: 150px; */
 }
 
 ul {
@@ -63,6 +131,46 @@ ul {
 .icons {
     /* width: 156px; */
     height: 46px;
+    margin-bottom: 120px;
+}
+
+#showcase .text {
+    padding: 0;
+}
+
+#footer-upsell{
+    border-bottom: 3px #eee solid;
+    margin-bottom: 120px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection{
+    margin: 30px 0;
+}
+
+#right{
+    display: flex;
+}
+
+.right-column{
+    width: 100px;
+    padding-right: 30px;
+}
+
+.column-heading{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding-bottom: 28px;
+}
+
+.link{
+    line-height: 30px;
 }
 
 /* #copy {
