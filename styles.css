@@ -14,8 +14,6 @@ nav {
 }
 
 #navbar {
-    /* display: flex; */
-    /* flex-direction: row; */
     justify-content: flex-end;
     gap: 28px;
     align-items: center;
@@ -38,7 +36,6 @@ a:hover {
 
 .galtiks {
     margin-top: 120px;
-    /* height: 519px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,10 +92,7 @@ p {
     background-size: 600px 600px;
     height: 100%;
     width: 100%;
-    /* justify-content: flex-end;
-    justify-items: center; */
     position: absolute;
-    /* top: 25%; */
     left: 60%;
 }
 
@@ -119,7 +113,6 @@ h3 {
     color: #111;
     font-size: 40px;
     font-weight: 500;
-    /* padding-top: 150px; */
 }
 
 ul {
@@ -131,7 +124,6 @@ ul {
 }
 
 .icons {
-    /* width: 156px; */
     height: 46px;
     margin-bottom: 120px;
 }
@@ -144,6 +136,7 @@ ul {
 #nft {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .card {
@@ -182,14 +175,6 @@ ul {
     flex-direction: row;
     justify-content: space-around;
 }
-
-/* .container-left {
-    border: 1px purple solid;
-}
-
-.container-right {
-    border: 1px orangered solid;
-} */
 
 .container p {
     padding: 0;
@@ -283,11 +268,15 @@ ul {
 
     ul {
         flex-wrap: wrap;
-        /* margin: 0; */
-        padding-top: 66;
+        padding-top: 66px;
     }
-    .icons{
+
+    .icons {
         margin-bottom: 20px;
+    }
+
+    #nft {
+        gap: 40px;
     }
 
     #footer {
