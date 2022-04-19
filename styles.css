@@ -92,11 +92,15 @@ p {
 #graphic {
     /* border: blue solid; */
     background: url(assets/graphic.svg);
+    background-repeat: no-repeat;
     background-size: 600px 600px;
-    height: 519px;
-    width: 40%;
+    height: 100%;
+    width: 100%;
     /* justify-content: flex-end;
     justify-items: center; */
+    position: absolute;
+    /* top: 25%; */
+    left: 60%;
 }
 
 #upsell {
@@ -138,30 +142,30 @@ ul {
     padding: 0;
 }
 
-#footer-upsell{
+#footer-upsell {
     border-bottom: 3px #eee solid;
     margin-bottom: 120px;
 }
 
-#footer{
+#footer {
     display: flex;
     justify-content: space-between;
 }
 
-.collection{
+.collection {
     margin: 30px 0;
 }
 
-#right{
+#right {
     display: flex;
 }
 
-.right-column{
+.right-column {
     width: 100px;
     padding-right: 30px;
 }
 
-.column-heading{
+.column-heading {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -169,7 +173,7 @@ ul {
     padding-bottom: 28px;
 }
 
-.link{
+.link {
     line-height: 30px;
 }
 
