@@ -107,14 +107,13 @@ p {
     margin-top: 180px;
     background-image: url(assets/background.svg);
     background-repeat: no-repeat;
-    /* background-size: 1000px 320px; */
+    border-radius: 15px;
     height: 320px;
-    width: stretch;
-    /* padding: 115px 80px 0 80px; */
+    width: 100%;
 }
 
 .text {
-    padding: 104px 0 0 64px;
+    padding: 100px 0 0 64px;
 }
 
 h3 {
