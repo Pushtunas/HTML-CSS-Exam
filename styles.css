@@ -141,6 +141,106 @@ ul {
     padding: 0;
 }
 
+
+#nft {
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 290px;
+    height: 400px;
+    border-radius: 16px;
+    background-color: #eee
+}
+
+#nft1 {
+    background-image: url(assets/ntfs/ntf-1.svg);
+    width: 290px;
+    height: 278px;
+}
+
+#nft2 {
+    background-image: url(assets/ntfs/nft-2.svg);
+    width: 290px;
+    height: 278px;
+}
+
+#nft3 {
+    background-image: url(assets/ntfs/ntf-3.svg);
+    width: 290px;
+    height: 278px;
+}
+
+#nft4 {
+    background-image: url(assets/ntfs/ntf-4.svg);
+    width: 290px;
+    height: 278px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* .container-left {
+    border: 1px purple solid;
+}
+
+.container-right {
+    border: 1px orangered solid;
+} */
+
+.container p {
+    padding: 0;
+}
+
+.series {
+    color: #ff8139;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.name {
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lot {
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.bid {
+    color: #777;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.price {
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.time {
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    margin: 0;
+}
+
 #footer-upsell {
     border-bottom: 3px #eee solid;
     margin-bottom: 120px;
