@@ -37,7 +37,6 @@ a:hover {
 }
 
 .galtiks {
-    /* border: red solid; */
     margin-top: 120px;
     /* height: 519px; */
     display: flex;
@@ -46,7 +45,6 @@ a:hover {
 }
 
 .text1 {
-    /* border: green solid; */
     width: 620px;
 }
 
@@ -80,17 +78,18 @@ p {
     font-size: 20px;
     font-weight: 600;
     color: #111;
-    /* border: 3px linear-gradient(#ff3998, #ff8139) 30; */
+    border: 3px solid transparent;
+    /* Gradientinis borderis bet vkadratas */
+    /* border-image: linear-gradient(45deg, #ff3998, #ff8139) 1; */
+    /* Apvalus borderis */
     border: 3px #ff8139 solid;
     border-radius: 30px;
     padding: 15px 35px;
     margin: 25px 0;
-    /* display: inline-block;
-    text-decoration: none; */
+
 }
 
 #graphic {
-    /* border: blue solid; */
     background: url(assets/graphic.svg);
     background-repeat: no-repeat;
     background-size: 600px 600px;
@@ -143,7 +142,6 @@ ul {
 
 
 #nft {
-    border: 1px red solid;
     display: flex;
     justify-content: space-between;
 }
@@ -242,6 +240,8 @@ ul {
 }
 
 #footer-upsell {
+    border-top: 3px #eee solid;
+    padding-top: 120px;
     border-bottom: 3px #eee solid;
     margin-bottom: 120px;
 }
@@ -276,30 +276,22 @@ ul {
     line-height: 30px;
 }
 
-/* #copy {
-    list-style-type: none;
-    padding: 125px 0 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
+@media screen and (max-width:768px) {
+    body {
+        padding: 32px 0 105px 0;
+    }
 
-/* #logo1 {
-    background-image: url(assets/companies/1.svg);
+    ul {
+        flex-wrap: wrap;
+        /* margin: 0; */
+        padding-top: 66;
+    }
+    .icons{
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 66px;
+    }
 }
-
-#logo2 {
-    background-image: url(assets/companies/2.svg);
-}
-
-#logo3 {
-    background-image: url(assets/companies/3.svg);
-}
-
-#logo4 {
-    background-image: url(assets/companies/4.svg);
-}
-
-#logo5 {
-    background-image: url(assets/companies/5.svg);
-} */
